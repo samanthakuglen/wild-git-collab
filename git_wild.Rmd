@@ -20,6 +20,10 @@ library(tidyverse)
 
 ggplot(data = diamonds, aes(x = carat, y = price)) +
   geom_point(color = "blue")
+<<<<<<< HEAD
+=======
+
+>>>>>>> aebcb7f614273e290aa3f5d3e56d253918ae6776
 ```
 
 ```{r partner 2}
@@ -27,7 +31,8 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 ### ggplot2 package) and create a subset based on filtering, e.g., 
 ### size greater than 1 carat or cut is "Ideal"
 
-diamond_ideal_cut <- diamonds %>% # Created a diamond subset 
+
+diamond_ideal_cut <- diamonds %>% # Created a diamond subset # added a test note
   filter(cut == "Ideal") # Filtered for "Ideal" cut
 ```
 
