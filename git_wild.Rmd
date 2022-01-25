@@ -1,30 +1,51 @@
+
 ---
-title: "wild git collab"
-author: "Samantha Kuglen"
+title: "Wild git collaboration practice!"
+author: "your names here!"
 date: "1/25/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=TRUE, message = FALSE, warning = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
 
-## R Markdown
+## STEP 5: No merge conflicts!
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r partner 1}
+### In this code chunk, start with the diamonds dataset (built in to
+### ggplot2 package) and create a plot of price vs. carat (or some other
+### variables of your choice)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
 ```
 
-## Including Plots
+```{r partner 2}
+### In this code chunk, start with the diamonds dataset (built in to
+### ggplot2 package) and create a subset based on filtering, e.g., 
+### size greater than 1 carat or cut is "Ideal"
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## STEP 7: Uh oh, merge conflicts!
+
+```{r break-it-1}
+### Both partners - delete this comment, then write some code here
+### to plot, summarize, calculate something simple using the diamonds
+### dataset.
+
+
+```
+
+## STEP 11: And even more merge conflicts!
+
+```{r break-it-2}
+### Both partners - delete this comment, then write some code here
+### to plot, summarize, calculate something simple using the diamonds
+### dataset.
+
+
+```
