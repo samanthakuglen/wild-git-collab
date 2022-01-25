@@ -29,7 +29,8 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 ### size greater than 1 carat or cut is "Ideal"
 
 
-
+diamond_ideal_cut <- diamonds %>% # Created a diamond subset # added a test note
+  filter(cut == "Ideal") # Filtered for "Ideal" cut
 ```
 
 ## STEP 7: Uh oh, merge conflicts!
