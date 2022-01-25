@@ -36,11 +36,12 @@ diamond_ideal_cut <- diamonds %>% # Created a diamond subset # added a test note
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-### Both partners - delete this comment, then write some code here
+
 ### to plot, summarize, calculate something simple using the diamonds
 ### dataset.
 
-
+ggplot(data = diamonds, aes(x = carat, y = clarity)) +
+  geom_point(color = "blue")
 ```
 
 ## STEP 11: And even more merge conflicts!
