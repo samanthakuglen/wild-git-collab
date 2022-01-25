@@ -18,6 +18,8 @@ library(tidyverse)
 ### ggplot2 package) and create a plot of price vs. carat (or some other
 ### variables of your choice)
 
+ggplot(data = diamonds, aes(x = carat, y = price)) +
+  geom_point(color = "blue")
 
 ```
 
@@ -25,6 +27,7 @@ library(tidyverse)
 ### In this code chunk, start with the diamonds dataset (built in to
 ### ggplot2 package) and create a subset based on filtering, e.g., 
 ### size greater than 1 carat or cut is "Ideal"
+
 
 diamond_ideal_cut <- diamonds %>% # Created a diamond subset # added a test note
   filter(cut == "Ideal") # Filtered for "Ideal" cut
