@@ -43,7 +43,6 @@ diamond_ideal_cut <- diamonds %>% # Created a diamond subset # added a test note
 
 ggplot(data = diamonds, aes(x = carat, y = clarity)) +
   geom_point(color = "blue")
-=======
 
 ```
 
