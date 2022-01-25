@@ -20,10 +20,7 @@ library(tidyverse)
 
 ggplot(data = diamonds, aes(x = carat, y = price)) +
   geom_point(color = "blue")
-<<<<<<< HEAD
-=======
 
->>>>>>> aebcb7f614273e290aa3f5d3e56d253918ae6776
 ```
 
 ```{r partner 2}
@@ -39,7 +36,15 @@ diamond_ideal_cut <- diamonds %>% # Created a diamond subset # added a test note
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-this is text to mess this up
+
+
+### to plot, summarize, calculate something simple using the diamonds
+### dataset.
+
+ggplot(data = diamonds, aes(x = carat, y = clarity)) +
+  geom_point(color = "blue")
+=======
+
 ```
 
 ## STEP 11: And even more merge conflicts!
